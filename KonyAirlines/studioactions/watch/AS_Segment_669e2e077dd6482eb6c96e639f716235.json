@@ -1,0 +1,44 @@
+{
+    "AS_Segment_669e2e077dd6482eb6c96e639f716235": {
+        "id": "AS_Segment_669e2e077dd6482eb6c96e639f716235",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "number",
+            "name": "sectionNumber"
+        }, {
+            "datatype": "number",
+            "name": "rowNumber"
+        }],
+        "contextObj": {
+            "name": "frmHome",
+            "type": "forms",
+            "platform": "",
+            "KUID": "086741743b5d4877a468c6806d531bfd"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___7874239e2a2e4aa099ca3e4085fbe4ce",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "setCurrentFlightInfo",
+            "display": "setCurrentFlightInfo",
+            "inputparams": [{
+                "name": "flightIndex",
+                "value": "rowNumber"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }, {
+            "id": "NAVIGATE_TO_FORM___12f444aa01084492b2a773fd52c5a46a",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCheckin",
+            "formKUID": "c804349b7a0d42afa781f293718472db",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

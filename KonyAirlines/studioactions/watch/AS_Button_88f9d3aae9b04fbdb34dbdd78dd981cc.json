@@ -1,0 +1,23 @@
+{
+    "AS_Button_88f9d3aae9b04fbdb34dbdd78dd981cc": {
+        "id": "AS_Button_88f9d3aae9b04fbdb34dbdd78dd981cc",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckinStatus",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d446ff540032441a9ea377f70b88e9ee"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__bff587a3ec814cca9916f546cc16b6a7",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "eventobject.popToRootController();",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

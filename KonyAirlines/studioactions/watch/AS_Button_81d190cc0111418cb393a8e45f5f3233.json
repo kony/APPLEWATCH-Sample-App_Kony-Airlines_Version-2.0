@@ -1,0 +1,27 @@
+{
+    "AS_Button_81d190cc0111418cb393a8e45f5f3233": {
+        "id": "AS_Button_81d190cc0111418cb393a8e45f5f3233",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckinConfirmation",
+            "type": "forms",
+            "platform": "",
+            "KUID": "ccac2f82626d4c8eb245e0fb14c7dada"
+        },
+        "actions": [{
+            "id": "NAVIGATE_TO_FORM___567d4661ea5945eda05d45f0c36f822d",
+            "type": "NAVIGATE_TO_FORM",
+            "formId": "frmCheckinStatus",
+            "formKUID": "d446ff540032441a9ea377f70b88e9ee",
+            "mappings": {},
+            "mappingsOrder": [],
+            "parentId": "",
+            "callbackType": null,
+            "enableMappingEditor": true
+        }]
+    }
+}

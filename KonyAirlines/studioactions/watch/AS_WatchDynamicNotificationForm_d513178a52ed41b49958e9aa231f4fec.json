@@ -1,0 +1,28 @@
+{
+    "AS_WatchDynamicNotificationForm_d513178a52ed41b49958e9aa231f4fec": {
+        "id": "AS_WatchDynamicNotificationForm_d513178a52ed41b49958e9aa231f4fec",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }, {
+            "datatype": "collection",
+            "name": "dict"
+        }, {
+            "datatype": "collection",
+            "name": "executerObj"
+        }],
+        "contextObj": {
+            "name": "CheckInNotificationController",
+            "type": "notifications",
+            "KUID": "354892f845b34785a28b4aa6b7508779"
+        },
+        "actions": [{
+            "id": "ADD_SNIPPET__a504579fcd0043aea4de6343a1b5dacf",
+            "type": "ADD_SNIPPET",
+            "codeSnippet": "//kony.print(\"reply object\"+dict);\n\n\n",
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

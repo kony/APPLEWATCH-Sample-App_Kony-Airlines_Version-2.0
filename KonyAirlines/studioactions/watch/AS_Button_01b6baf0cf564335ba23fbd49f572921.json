@@ -1,0 +1,28 @@
+{
+    "AS_Button_01b6baf0cf564335ba23fbd49f572921": {
+        "id": "AS_Button_01b6baf0cf564335ba23fbd49f572921",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmCheckinStatus",
+            "type": "forms",
+            "platform": "",
+            "KUID": "d446ff540032441a9ea377f70b88e9ee"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___9959ed5ba63442a3abd16c8e6798b6c2",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFrmCheckinConfirmationInit",
+            "display": "onFrmCheckinConfirmationInit",
+            "inputparams": [{
+                "name": "form",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}

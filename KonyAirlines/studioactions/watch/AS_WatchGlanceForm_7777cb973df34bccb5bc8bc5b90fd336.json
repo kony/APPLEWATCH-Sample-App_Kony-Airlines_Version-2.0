@@ -1,0 +1,28 @@
+{
+    "AS_WatchGlanceForm_7777cb973df34bccb5bc8bc5b90fd336": {
+        "id": "AS_WatchGlanceForm_7777cb973df34bccb5bc8bc5b90fd336",
+        "type": "ACTION_SEQUENCE",
+        "params": [{
+            "datatype": "collection",
+            "name": "eventobject"
+        }],
+        "contextObj": {
+            "name": "frmGlance",
+            "type": "glances",
+            "platform": "",
+            "KUID": "4a11134b44284533a50d0aaae537d094"
+        },
+        "actions": [{
+            "id": "INVOKE_FUNCTION___fadb43d72bf14792aae04c6e216970c9",
+            "type": "INVOKE_FUNCTION",
+            "sequenceKUID": "onFrmGlanceInit",
+            "display": "onFrmGlanceInit",
+            "inputparams": [{
+                "name": "form",
+                "value": " eventobject"
+            }],
+            "parentId": null,
+            "callbackType": null
+        }]
+    }
+}
