@@ -11,3 +11,5 @@ Application will showcase how to create apple watch application using the kony S
 # Supported Platforms:
 **Mobile**
  * iPhone 
+
+**Supported KonyStudio Version:** 7.0
