@@ -5,7 +5,7 @@ Application will showcase how to create apple watch application using the kony K
 #To run this app
 
 1. Download the project.
-2. Import project to your Kony IDE(Studioviz).
+2. Import project to your Kony IDE(KonyVisualizer).
 3. Build & run the app for iPhone.
 
 # Supported Platforms:
