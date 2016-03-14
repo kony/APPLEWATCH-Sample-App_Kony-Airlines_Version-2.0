@@ -12,4 +12,4 @@ Application will showcase how to create apple watch application using the kony K
 **Mobile**
  * iPhone 
 
-**Supported Kony Visualizer Version:** 7.0
+**Supported Kony Visualizer Enterprise Version:** 7.0
