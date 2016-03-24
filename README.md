@@ -1,4 +1,4 @@
-# AppleWatch-Sample-App_Kony-Airlines_Version-2.0
+# APPLEWATCH-Sample-App_Kony-Airlines_Version-2.0
 
 Application will showcase how to create apple watch application using Kony Visualizer.
 
